@@ -1,0 +1,3 @@
+letkode_helpers.exception.missing_parameter: 'El parámetro requerido "{{ key }}" no está presente.'
+letkode_helpers.exception.invalid_input: 'El valor proporcionado no es válido.'
+letkode_helpers.exception.invalid_configuration: 'Configuración de helper inválida: {{ detail }}.'

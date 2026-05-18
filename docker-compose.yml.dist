@@ -11,4 +11,5 @@ services:
         command: sleep infinity
         volumes:
             - ./:/app/www
-            - ./docker/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+            - ./docker/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+            - ./docker/php/php.ini:/usr/local/etc/php/php.ini
